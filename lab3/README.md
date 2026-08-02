@@ -4,7 +4,7 @@ An end-to-end NLP & Machine Learning lab project that evaluates, benchmarks, and
 
 ---
 
-## 🚀 Quick Execution Guide (Faculty & Evaluator Instructions)
+##  Quick Execution Guide (Faculty & Evaluator Instructions)
 
 Follow these step-by-step instructions to clone the repository, set up the environment, install dependencies, and execute the full machine learning pipeline:
 
@@ -58,7 +58,7 @@ jupyter notebook lab3da.ipynb
 
 ---
 
-## 📌 Project Overview & Pipeline Architecture
+##  Project Overview & Pipeline Architecture
 
 Email categorization and intent classification are foundational for automated workflow routing, spam filtering, and AI draft generation systems. This project implements a multi-dataset text classification pipeline leveraging TF-IDF n-gram feature extraction ($1, 2$) combined with linear models, Naive Bayes variants, and baseline classifiers.
 
@@ -76,7 +76,7 @@ Email categorization and intent classification are foundational for automated wo
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 .
@@ -97,7 +97,7 @@ Email categorization and intent classification are foundational for automated wo
 
 ---
 
-## 📊 Dataset Summaries
+##  Dataset Summaries
 
 | Dataset ID | Task Type | Total Samples | Train / Test Split | Classes / Labels | Max Class Prevalence |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -107,7 +107,7 @@ Email categorization and intent classification are foundational for automated wo
 
 ---
 
-## 📈 Benchmark Model Performance Results
+##  Benchmark Model Performance Results
 
 ### 1. Cross-Validation Mean Macro F1 Scores ($K=5$)
 
@@ -127,7 +127,7 @@ Email categorization and intent classification are foundational for automated wo
 
 ---
 
-## 🔁 Cross-Dataset Spam Transferability Analysis
+##  Cross-Dataset Spam Transferability Analysis
 
 To measure model generalization across distinct data distributions, a model trained on one binary spam dataset was evaluated directly on the unseen second spam dataset without fine-tuning:
 
@@ -138,16 +138,23 @@ To measure model generalization across distinct data distributions, a model trai
 
 ---
 
-## 🖼️ Visual Artifacts & Diagnostic Analysis
+##  Diagnostic Plots & Visual Artifacts
 
-1. **Class Distribution Breakdown** (`images/class_distributions.png`)
-2. **Cross-Validation Model Comparison** (`images/cv_performance.png`)
-3. **Macro F1 Heatmap** (`images/model_heatmap.png`)
-4. **Normalized Confusion Matrices** (`images/confusion_matrices.png`)
+### 1. Class Distribution Analysis
+![Class Distributions](images/class_distributions.png)
+
+### 2. Cross-Validation Performance Comparison
+![Cross-Validation Performance](images/cv_performance.png)
+
+### 3. Model Performance Heatmap
+![Model Heatmap](images/model_heatmap.png)
+
+### 4. Normalized Confusion Matrices
+![Confusion Matrices](images/confusion_matrices.png)
 
 ---
 
-## 🛠️ Requirements & Environment
+##  Requirements & Environment
 
 - `Python 3.10+`
 - `scikit-learn >= 1.2.0`
