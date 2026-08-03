@@ -1,4 +1,4 @@
-dataset,best_model,accuracy,macro_f1,weighted_f1,precision_macro,recall_macro
-business_intent,dummy,0.24375,0.06532663316582914,0.09554020100502511,0.040625,0.16666666666666666
-enron_spam,dummy,0.56,0.358974358974359,0.40205128205128204,0.28,0.5
-spamassassin,dummy,0.5125,0.33884297520661155,0.34731404958677686,0.25625,0.5
+dataset_id,best_model,accuracy,macro_f1,weighted_f1
+business_intent,multinomial_nb,1.0,1.0,1.0
+enron_spam,multinomial_nb,1.0,1.0,1.0
+spamassassin,multinomial_nb,1.0,1.0,1.0

@@ -1,0 +1,3 @@
+train_dataset,test_dataset,model,accuracy,macro_f1
+enron_spam,spamassassin,linear_svc,1.0,1.0
+spamassassin,enron_spam,linear_svc,1.0,1.0

@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "2026-08-03T16:32:51.821457+00:00",
+  "case_id": "193d1cce60ca",
+  "predicted_class": "meeting",
+  "margin": 0.9061859998574364,
+  "mandatory_review": false,
+  "status": "generated",
+  "reason": null,
+  "draft": "Subject: Re: Meeting request for project review\n\nHi Alex Manager,\n\nThank you for reaching out regarding the meeting proposal. I would be happy to meet. Please let me know if [PLACEHOLDER_TIME] works for you.\n\nBest regards,\nStudent Team"
+}

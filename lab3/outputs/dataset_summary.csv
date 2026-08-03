@@ -1,4 +1,4 @@
-dataset,samples,classes,labels
-business_intent,800,6,"complaint, information, meeting, request, spam, urgent_action"
-enron_spam,500,2,"legitimate, spam"
-spamassassin,400,2,"legitimate, spam"
+dataset_id,rows,classes,empty_text,duplicates,median_length,prevalence
+business_intent,800,6,0,0,115.0,0.26625
+enron_spam,500,2,0,0,151.0,0.5
+spamassassin,400,2,0,0,161.0,0.5
