@@ -1,0 +1,4 @@
+dataset,samples,classes,labels
+business_intent,800,6,"complaint, information, meeting, request, spam, urgent_action"
+enron_spam,500,2,"legitimate, spam"
+spamassassin,400,2,"legitimate, spam"
