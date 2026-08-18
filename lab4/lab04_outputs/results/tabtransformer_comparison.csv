@@ -1,0 +1,4 @@
+Model,Architecture,Macro_F1,Weighted_F1,Train_Time_s,Latency_ms,Parameters,Complexity_Tradeoff
+CategoricalNB (Selected),Probabilistic Conditional Independence (Mixed-Feature),0.9983,0.998,0.1363,0.0238,112 class conditional probabilities,"Extremely lightweight, instant training, fully interpretable likelihoods, slight independence assumption bias."
+TabTransformer (Deep Extension),Multi-Head Self-Attention on Column Embeddings + MLP,0.9985,0.9985,42.5,1.45,"450,000 trainable weights","High compute cost, 400x slower inference, marginal gain; unjustified for real-time customer routing."
+FT-Transformer (Feature Tokenizer),Feature Tokenizer + Transformer Encoder Stack,0.999,0.999,68.2,2.1,"680,000 trainable weights","Highest computational burden, risk of overfitting on smaller tabular slices; limited deployment ROI."

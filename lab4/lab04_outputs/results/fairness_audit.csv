@@ -1,0 +1,6 @@
+Subgroup,Sample_Size_N,Accuracy,Macro_Recall,Macro_F1,Stability_Caveat
+Gender: Female,483,0.9979,0.9984,0.9982,Statistically stable (N >= 30)
+Gender: Male,517,0.9981,0.9986,0.9984,Statistically stable (N >= 30)
+Age < 30,256,1.0,1.0,1.0,Statistically stable (N >= 30)
+Age 30-50,532,0.9962,0.998,0.9971,Statistically stable (N >= 30)
+Age > 50,212,1.0,1.0,1.0,Statistically stable (N >= 30)

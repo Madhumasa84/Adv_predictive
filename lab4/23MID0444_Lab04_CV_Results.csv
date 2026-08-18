@@ -1,0 +1,7 @@
+model,accuracy_mean,macro_precision_mean,macro_recall_mean,macro_f1_mean,macro_f1_sd,weighted_f1_mean,cv_time_seconds,fold_macro_f1
+BernoulliNB,0.9995,0.9996,0.9996,0.9996,0.0006,0.9995,0.905,"[np.float64(0.9989), np.float64(1.0), np.float64(1.0), np.float64(0.9989), np.float64(1.0)]"
+CategoricalNB_mixed,0.999,0.9992,0.9992,0.9992,0.0005,0.999,0.7306,"[np.float64(0.9989), np.float64(1.0), np.float64(0.9989), np.float64(0.9989), np.float64(0.9989)]"
+LogisticRegression_extension,0.9988,0.999,0.9989,0.9989,0.0007,0.9987,1.2361,"[np.float64(0.9989), np.float64(0.9979), np.float64(0.9989), np.float64(0.9989), np.float64(1.0)]"
+GaussianNB_numeric_only,0.9865,0.9883,0.9888,0.9885,0.0025,0.9865,0.3694,"[np.float64(0.9894), np.float64(0.9894), np.float64(0.9904), np.float64(0.984), np.float64(0.9893)]"
+ComplementNB_extension,0.9378,0.9484,0.9074,0.9189,0.0144,0.9354,0.9589,"[np.float64(0.9141), np.float64(0.9088), np.float64(0.9384), np.float64(0.9291), np.float64(0.904)]"
+Dummy_most_frequent,0.3373,0.0843,0.25,0.1261,0.0002,0.1701,0.9508,"[np.float64(0.1262), np.float64(0.1262), np.float64(0.1262), np.float64(0.1258), np.float64(0.1262)]"

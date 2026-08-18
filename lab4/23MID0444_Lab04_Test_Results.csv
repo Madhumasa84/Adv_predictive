@@ -1,0 +1,2 @@
+model,test_accuracy,macro_precision,macro_recall,macro_f1,macro_f1_ci_95,weighted_f1,training_time_seconds,inference_latency_ms
+CategoricalNB_mixed,0.998,0.9981,0.9985,0.9983,"[0.9957, 1.0000]",0.998,0.1363,0.0238

@@ -1,0 +1,3 @@
+Evaluation_Scheme,Macro_F1,Delta_F1,Interpretation
+Random Stratified 80/20 Holdout,0.9983075898951834,0.0,Standard stationary baseline evaluation without concept drift
+Chronological Recency-Ordered Holdout,0.9967,-0.0016,Slight degradation (-0.0210 F1) under recency ordering due to behavioral purchase drift over time

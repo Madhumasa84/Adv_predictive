@@ -1,0 +1,23 @@
+feature_name,data_type,category,description,handling
+customer_id,string,Identifier,Unique surrogate identifier for customer record,Excluded from model features
+Gender,categorical,Demographic,Biological sex (Male / Female),OneHot / SafeOrdinal encoded
+Ever_Married,categorical,Demographic,Marital status indicator (Yes / No),OneHot / SafeOrdinal encoded
+Age,integer,Demographic,Customer age in completed years (18-85),Discretized / Standardized / Gaussian
+Graduated,categorical,Demographic,University degree completion (Yes / No),OneHot / SafeOrdinal encoded
+Profession,categorical,Demographic,Occupational category (9 classes),OneHot / SafeOrdinal encoded
+Work_Experience,float,Demographic,Years of formal work experience (0-15),Discretized / Median Imputed
+Spending_Score,categorical,Psychographic,Derived propensity to spend (Low / Average / High),SafeOrdinal / OneHot encoded
+Family_Size,float,Demographic,Number of family members in household (1-9),Discretized / Median Imputed
+Var_1,categorical,Demographic,Anonymized internal demographic category (Cat_1 to Cat_7),SafeOrdinal / OneHot encoded
+Lifestyle,categorical,Psychographic,Primary consumer lifestyle classification,SafeOrdinal / OneHot encoded
+Price_Sensitivity,categorical,Psychographic,Stated sensitivity to product pricing (Low to Very High),SafeOrdinal / OneHot encoded
+Brand_Consciousness,categorical,Psychographic,Affinity for premium/designer branding,SafeOrdinal / OneHot encoded
+Technology_Affinity,categorical,Psychographic,Self-reported tech adoption index,SafeOrdinal / OneHot encoded
+Purchase_Frequency,float,Behavioral,Annual transactions count per year,Continuous / Discretized
+Average_Order_Value,float,Behavioral,Mean monetary value per order ($),Continuous / Discretized
+Total_Spending,float,Behavioral,Cumulative annual dollar expenditure,Continuous / Discretized
+Recency,float,Behavioral,Days elapsed since most recent transaction,Continuous / Discretized
+Discount_Usage,float,Behavioral,Percentage of orders completed with promotional discount,Continuous / Discretized
+Campaign_Response,binary,Behavioral,Responded to previous direct marketing campaign (0 / 1),Binary indicator
+Engagement_Score,float,Behavioral,Digital platform engagement score (0-100),Continuous / Discretized
+Segmentation,categorical,Target,"Multiclass customer segment label (A, B, C, D)",Supervised Target Variable

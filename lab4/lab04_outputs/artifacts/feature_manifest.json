@@ -1,0 +1,78 @@
+{
+  "all_features": [
+    "Gender",
+    "Ever_Married",
+    "Age",
+    "Graduated",
+    "Profession",
+    "Work_Experience",
+    "Family_Size",
+    "Var_1",
+    "Spending_Score",
+    "Lifestyle",
+    "Price_Sensitivity",
+    "Brand_Consciousness",
+    "Technology_Affinity",
+    "Purchase_Frequency",
+    "Average_Order_Value",
+    "Total_Spending",
+    "Recency",
+    "Discount_Usage",
+    "Campaign_Response",
+    "Engagement_Score"
+  ],
+  "demographic": [
+    "Gender",
+    "Ever_Married",
+    "Age",
+    "Graduated",
+    "Profession",
+    "Work_Experience",
+    "Family_Size",
+    "Var_1"
+  ],
+  "psychographic": [
+    "Spending_Score",
+    "Lifestyle",
+    "Price_Sensitivity",
+    "Brand_Consciousness",
+    "Technology_Affinity"
+  ],
+  "behavioral": [
+    "Purchase_Frequency",
+    "Average_Order_Value",
+    "Total_Spending",
+    "Recency",
+    "Discount_Usage",
+    "Campaign_Response",
+    "Engagement_Score"
+  ],
+  "numeric": [
+    "Age",
+    "Work_Experience",
+    "Family_Size",
+    "Purchase_Frequency",
+    "Average_Order_Value",
+    "Total_Spending",
+    "Recency",
+    "Discount_Usage",
+    "Campaign_Response",
+    "Engagement_Score"
+  ],
+  "binary": [
+    "Gender",
+    "Ever_Married",
+    "Graduated"
+  ],
+  "nominal": [
+    "Profession",
+    "Var_1",
+    "Spending_Score",
+    "Lifestyle",
+    "Price_Sensitivity",
+    "Brand_Consciousness",
+    "Technology_Affinity"
+  ],
+  "target": "Segmentation",
+  "id_col": "customer_id"
+}

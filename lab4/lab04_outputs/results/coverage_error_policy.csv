@@ -1,0 +1,8 @@
+threshold,coverage_pct,selective_error_pct,review_rate_pct,business_interpretation
+0.35,100.0,0.2,0.0,Auto-classify 100.0% cases with 0.2% error; route 0.0% to review
+0.45,100.0,0.2,0.0,Auto-classify 100.0% cases with 0.2% error; route 0.0% to review
+0.55,100.0,0.2,0.0,Auto-classify 100.0% cases with 0.2% error; route 0.0% to review
+0.65,99.9,0.2,0.1,Auto-classify 99.9% cases with 0.2% error; route 0.1% to review
+0.75,99.8,0.2,0.2,Auto-classify 99.8% cases with 0.2% error; route 0.2% to review
+0.85,99.5,0.1,0.5,Auto-classify 99.5% cases with 0.1% error; route 0.5% to review
+0.9,99.4,0.0,0.6,Auto-classify 99.4% cases with 0.0% error; route 0.6% to review

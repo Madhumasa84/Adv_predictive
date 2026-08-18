@@ -1,0 +1,18 @@
+{
+  "dataset_name": "JanataHack Customer Segmentation Benchmark (Automobile Multi-Modal)",
+  "sha256_checksum": "af02f12186a4f584dd68fdbde91b105166d43e9e30cc01c857299e02303c6be4",
+  "total_records": 5000,
+  "total_features": 20,
+  "target_variable": "Segmentation",
+  "target_classes": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "identifier_excluded": "customer_id",
+  "privacy_protection": "De-identified surrogate keys; no PII (direct names, emails, IPs, phone numbers excluded)",
+  "circularity_audit": "PASSED - No deterministic rule encoding, post-assignment outcomes, or proxy leakage identified",
+  "psychographic_provenance": "Survey-derived & behaviorally inferred multi-scale constructs with explicit stability bounds",
+  "date_frozen": "2026-08-18"
+}

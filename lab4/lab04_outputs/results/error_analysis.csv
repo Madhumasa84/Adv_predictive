@@ -1,0 +1,3 @@
+customer_id,Segmentation,predicted_segment,max_posterior,prob_A,prob_B,prob_C,prob_D,review_recommendation
+CUST_02690,B,A,0.8842,0.8842,0.1158,0.0,0.0,Automated (Standard Human Sampling)
+CUST_04208,B,A,0.7944,0.7944,0.2056,0.0,0.0,Automated (Standard Human Sampling)
