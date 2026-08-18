@@ -148,13 +148,14 @@ def generate_word_report():
     doc.add_paragraph() # Spacer
 
     # Student Details Table Card
-    t_meta = doc.add_table(rows=4, cols=2)
+    t_meta = doc.add_table(rows=5, cols=2)
     t_meta.alignment = WD_TABLE_ALIGNMENT.CENTER
     meta_info = [
         ("Student Name: Madhusudhanan G", "Registration Number: 23MID0444"),
         ("Course: MDI3003 - Advanced Predictive Analytics", "Faculty: Dr. Durgesh Kumar"),
         ("Institution: SCOPE, VIT Vellore", "Evaluation Date: August 18, 2026 | Batch: MDI3003"),
-        ("Dataset SHA-256 Checksum: af02f12186a4f584dd68fdbde91b105166d43e9e30cc01c857299e02303c6be4", "Evaluation Partition: Stratified 80/20 Locked Split")
+        ("Dataset SHA-256 Checksum: af02f12186a4f584dd68fdbde91b105166d43e9e30cc01c857299e02303c6be4", "Evaluation Partition: Stratified 80/20 Locked Split"),
+        ("GitHub Repository: https://github.com/Madhumasa84/Adv_predictive/tree/main/lab4", "Reproducibility: 100% Deterministic (Seed=42)")
     ]
     for row_idx, (col1, col2) in enumerate(meta_info):
         t_meta.rows[row_idx].cells[0].paragraphs[0].text = col1
@@ -880,7 +881,8 @@ def generate_word_report():
         "This laboratory system and technical report were developed in compliance with academic integrity guidelines. "
         "All data splits, preprocessors, classifiers, error analyses, and validation metrics are deterministic, leak-free, "
         "and reproducible from top to bottom via python main.py and lab4da.ipynb.\n\n"
-        "Student Signature: Madhusudhanan G (23MID0444)                  Date: August 18, 2026"
+        "Student Signature: Madhusudhanan G (23MID0444)                  Date: August 18, 2026\n"
+        "GitHub Code Repository: https://github.com/Madhumasa84/Adv_predictive/tree/main/lab4"
     )
     p_sign.runs[0].font.size = Pt(9)
     p_sign.runs[0].font.color.rgb = CHARCOAL

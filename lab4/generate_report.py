@@ -247,6 +247,10 @@ def build_pdf_report():
         [
             Paragraph("<b>Dataset SHA-256:</b> <font name='Courier' size=6.5>af02f12186a4f584dd68fdbde91b105166d43e9e30cc01c857299e02303c6be4</font>", body_style),
             Paragraph("<b>Benchmark Split:</b> Stratified 80/20 Locked Holdout", body_style)
+        ],
+        [
+            Paragraph("<b>GitHub Repository:</b> <font color='#2B6CB0'>https://github.com/Madhumasa84/Adv_predictive/tree/main/lab4</font>", body_style),
+            Paragraph("<b>Reproducibility:</b> 100% Deterministic (Seed=42)", body_style)
         ]
     ]
     meta_table = Table(meta_data, colWidths=[250, 254])
@@ -1136,7 +1140,8 @@ def build_pdf_report():
                       "This laboratory system and technical report were developed in compliance with academic integrity guidelines. "
                       "All data splits, preprocessors, classifiers, error analyses, and validation metrics are deterministic, leak-free, "
                       "and reproducible from top to bottom via <code>python main.py</code> and <code>lab4da.ipynb</code>.<br/><br/>"
-                      "<b>Student Signature:</b> Madhusudhanan G (23MID0444) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Date:</b> August 18, 2026", body_style)
+                      "<b>Student Signature:</b> Madhusudhanan G (23MID0444) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Date:</b> August 18, 2026<br/>"
+                      "<b>GitHub Code Repository:</b> <font color='#2B6CB0'>https://github.com/Madhumasa84/Adv_predictive/tree/main/lab4</font>", body_style)
         ]
     ]
     sign_tbl = Table(sign_box, colWidths=[504])
