@@ -1,0 +1,7 @@
+metric,score,interpretation
+Test Accuracy,0.791667,"2,318 / 2,928 correctly classified holdout tweets"
+Macro Precision,0.742316,"Balanced across negative, neutral, and positive"
+Macro Recall,0.751217,High sensitivity across minority classes
+Macro F1-Score,0.74423,Primary locked test benchmark metric
+Weighted F1-Score,0.795792,Reflects natural class imbalance support
+Inference Latency,2.4e-05,"0.024 ms per sample (~41,600 predictions/sec)"

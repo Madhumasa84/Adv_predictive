@@ -1,0 +1,7 @@
+airline,negative,neutral,positive,N,error_rate
+American,0.647,0.243,0.11,535,0.218
+Delta,0.447,0.34,0.213,456,0.204
+Southwest,0.451,0.324,0.225,506,0.211
+US Airways,0.735,0.168,0.097,565,0.198
+United,0.654,0.225,0.121,774,0.213
+Virgin America,0.391,0.37,0.239,92,0.185

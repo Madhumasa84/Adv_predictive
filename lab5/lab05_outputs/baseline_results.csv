@@ -1,0 +1,3 @@
+model,macro_f1,accuracy,strategy
+DummyClassifier,0.256841,0.626708,most_frequent
+VADER,0.520646,0.552254,lexicon_rule_based

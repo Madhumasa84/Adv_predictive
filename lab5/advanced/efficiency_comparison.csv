@@ -1,0 +1,5 @@
+model,macro_f1,uncertainty,train_time_s,infer_latency_s_per_sample,model_size_mb,decision_value
+LogisticRegression (Selected Core),0.74423,CV SD: ±0.0082,4.262211,2.4e-05,14.8,Optimal for real-time edge & high-throughput streaming
+LinearSVC (Sparse Large-Margin),0.739502,CV SD: ±0.0117,2.049466,1.8e-05,7.4,Ultra-fast CPU training with competitive linear accuracy
+BiLSTM (Sequence Embeddings),0.72853,±0.0087 (3-Seed SD),24.962274,0.000212,45.22,Suffers from early overfitting on small domain corpus
+BERTweet-base (Domain Transformer),0.819168,"95% CI [0.8024, 0.8338]",389.639535,0.002617,514.61,State-of-the-art accuracy (+7.5% F1) where GPU compute permits

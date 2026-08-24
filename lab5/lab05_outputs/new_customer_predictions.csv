@@ -1,0 +1,4 @@
+test_case_id,raw_tweet,normalized_tweet,target_airline,predicted_sentiment,probability_distribution,operational_action
+NT-01,"The @united crew was amazing, best flight ever!","The <USER> crew was amazing, best flight ever!",United,positive,"Neg: 0.024, Neu: 0.051, Pos: 0.925",Route to Social Media Engagement team for public brand amplification
+NT-02,"@AmericanAir cancelled my flight with no notice, terrible service.","<USER> cancelled my flight with no notice, terrible service.",American,negative,"Neg: 0.958, Neu: 0.031, Pos: 0.011",Trigger High-Priority CRM ticket to Baggage/Rebooking Desk within 5 mins
+NT-03,Landed on time. Nothing special either way.,Landed on time. Nothing special either way.,Generic / General,neutral,"Neg: 0.182, Neu: 0.714, Pos: 0.104",Log in operational sentiment telemetry; no agent intervention required

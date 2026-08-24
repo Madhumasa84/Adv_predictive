@@ -1,0 +1,17 @@
+{
+  "model_name": "vinai/bertweet-base",
+  "tokenizer": "vinai/bertweet-base",
+  "max_length": 128,
+  "batch_size": 16,
+  "learning_rate": 2e-05,
+  "epochs": 3,
+  "weight_decay": 0.01,
+  "seed": 42,
+  "train_time_s": 389.639535,
+  "infer_latency_s_per_sample": 0.002617,
+  "test_eval_loss": 0.46653,
+  "test_macro_f1": 0.819168,
+  "bootstrap_95_ci_low": 0.8024,
+  "bootstrap_95_ci_high": 0.8338,
+  "model_size_mb": 514.61134
+}

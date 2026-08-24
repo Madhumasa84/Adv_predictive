@@ -1,0 +1,22 @@
+{
+  "name": "Twitter US Airline Sentiment",
+  "source": "https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment",
+  "access_date": "2026-08-24",
+  "license": "CC BY-NC-SA 4.0",
+  "rows": 14640,
+  "label_distribution": {
+    "negative": 9178,
+    "neutral": 3099,
+    "positive": 2363
+  },
+  "collection_period": "February 2015",
+  "fields_excluded": [
+    "tweet_id (identifier)",
+    "negativereason (post-label leakage)",
+    "negativereason_confidence (post-label leakage)",
+    "name/username (identifier)",
+    "tweet_coord/tweet_location (privacy)",
+    "user_timezone (spurious bias)",
+    "airline_sentiment_confidence (target annotation leakage)"
+  ]
+}

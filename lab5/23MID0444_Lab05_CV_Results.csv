@@ -1,0 +1,4 @@
+model,macro_f1_mean,macro_f1_sd,weighted_f1_mean,accuracy_mean,fit_time_mean
+LogisticRegression,0.744384,0.008241,0.795471,0.792776,4.262211
+LinearSVC,0.739502,0.011703,0.796877,0.800631,2.049466
+MultinomialNB,0.585816,0.015062,0.690117,0.736339,0.725551
