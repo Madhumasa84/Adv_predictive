@@ -1,0 +1,95 @@
+{
+  "dataset": "Chicago Crimes - 2001 to Present (D1)",
+  "source_url": "https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2",
+  "api_endpoint": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv",
+  "source_agency": "Chicago Police Department / City of Chicago Data Portal",
+  "date_col": "date",
+  "location_col": "district",
+  "location_value": "001",
+  "second_location_value": "008",
+  "crime_category_col": "primary_type",
+  "crime_category_filter": null,
+  "frequency": "W-MON",
+  "test_periods": 12,
+  "val_periods": 8,
+  "ar_lags": 4,
+  "arima_candidates": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0
+    ]
+  ],
+  "data_start_year": 2018,
+  "data_end_year": 2023,
+  "seed": 42,
+  "access_date": "2026-08-31",
+  "license": "Public domain / City of Chicago Open Data Terms of Use",
+  "date_type_used": "occurrence date (date column)",
+  "duplicate_handling": "Deduplicated on case_number; multiple rows grouped by case_number",
+  "n_total_periods": 314,
+  "n_train": 294,
+  "n_val": 8,
+  "n_test": 12,
+  "train_range": [
+    "2018-01-01",
+    "2023-08-14"
+  ],
+  "val_range": [
+    "2023-08-21",
+    "2023-10-09"
+  ],
+  "test_range": [
+    "2023-10-16",
+    "2024-01-01"
+  ],
+  "adf_original_pvalue": 0.25201615408644135,
+  "adf_original_stationary": false,
+  "adf_diff1_pvalue": 1.7315095176493603e-22,
+  "differencing_order_d": 1,
+  "ar_lag_order": 4,
+  "selected_arima_order": [
+    0,
+    1,
+    1
+  ],
+  "arima_aic": 3281.4932,
+  "naive_test_mae": 21.3333,
+  "ar_test_mae": 24.2216,
+  "arima_test_mae": 28.0054,
+  "naive_test_rmse": 26.2932,
+  "ar_test_rmse": 27.8361,
+  "arima_test_rmse": 35.6609,
+  "ljung_box_lag5_p": 0.774133,
+  "python_version": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+  "statsmodels_version": "0.14.6",
+  "pandas_version": "3.0.3",
+  "numpy_version": "2.4.6",
+  "author": "Madhusudhanan G (23MID0444)",
+  "run_timestamp": "2026-08-31T17:37:58.953569+00:00"
+}

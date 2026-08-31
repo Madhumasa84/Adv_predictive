@@ -1,0 +1,2 @@
+Advanced Experiment,Baseline,Advanced Model,Test MAE,Test RMSE,AIC,Conclusion
+SARIMA vs ARIMA,"ARIMA(0, 1, 1) (MAE=28.01)","SARIMA(1,1,1)(1,0,1,52)",25.0425,28.9517,2653.81,SARIMA incorporates annual cyclical seasonality; compare forecast stability against ARIMA

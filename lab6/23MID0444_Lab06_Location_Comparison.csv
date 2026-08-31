@@ -1,0 +1,3 @@
+Location,Periods,Mean,Std,Best Model,Test MAE,Test RMSE
+District 001 (Central),314,242.6,79.38,"ARIMA(0, 1, 1)",28.0054,35.6609
+District 008 (West Side),314,287.57,45.34,"ARIMA(0, 1, 1)",38.5426,44.1072

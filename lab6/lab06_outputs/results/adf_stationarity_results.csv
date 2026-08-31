@@ -1,0 +1,3 @@
+Series,ADF Statistic,p-value,Critical 5%,Stationary (α=0.05)
+Original Training,-2.0815,0.252016,-2.8716,False
+1st-Differenced (d=1),-12.1315,0.0,-2.8716,True

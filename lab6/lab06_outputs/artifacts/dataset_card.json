@@ -1,0 +1,15 @@
+{
+  "dataset_name": "Chicago Crimes 2001-to-Present (District 1 Extract, 2018-2023)",
+  "source_agency": "Chicago Police Department / City of Chicago Data Portal",
+  "source_url": "https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2",
+  "access_date": "2026-08-31",
+  "license": "Public domain / City of Chicago Open Data Terms of Use",
+  "sha256_checksum": "16c3c052a42087a165d4be858a79e5ad25907df80aedfa0e9fc4aa7b1ae101f9",
+  "total_incident_rows": 76175,
+  "date_range": "2018-01-01 to 2023-12-31",
+  "selected_location": "District 001",
+  "date_type_used": "occurrence date (Date column)",
+  "duplicate_handling": "Deduplicated on case_number; one incident can generate multiple rows - grouped by case_number",
+  "aggregation_frequency": "W-MON",
+  "forecast_horizon": "12 weeks"
+}

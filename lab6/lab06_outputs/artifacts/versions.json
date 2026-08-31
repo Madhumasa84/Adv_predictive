@@ -1,0 +1,11 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pandas": "2.3.3",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.7",
+  "statsmodels": "0.15.0",
+  "author": "Madhusudhanan G (23MID0444)",
+  "course": "MDI3003 Advanced Predictive Analytics - Lab 06",
+  "timestamp": "2026-08-31T17:43:28.896301+00:00"
+}

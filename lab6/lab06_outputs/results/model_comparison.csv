@@ -1,0 +1,4 @@
+Model,Order / Lags,Train AIC,Val MAE,Test MAE,Test RMSE,Ljung-Box p,Notes
+Naive (Persistence),Last Observed,-,16.75,21.3333,26.2932,-,Simple persistence baseline reference
+AR(4),p=4,3252.64,20.2181,24.2216,27.8361,-,PACF-motivated autoregression with constant/trend
+"ARIMA(0, 1, 1)","(0, 1, 1)",3281.49,38.8628,28.0054,35.6609,0.7741,AIC-selected optimal specification with residual audit

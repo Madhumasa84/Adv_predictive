@@ -1,0 +1,28 @@
+
+RESPONSIBLE ANALYTICS STATEMENT & TIME-LOCATION INTERPRETATION — MDI3003 LAB 06
+================================================================================
+1. ADMINISTRATIVE TARGET DEFINITION:
+   The forecasting target represents the count of *reported and recorded incidents* in Chicago
+   Police District 1, not the true latent rate of all criminal events. Reporting rates vary
+   over time, across communities, and across offense types due to citizen trust and recording protocols.
+
+2. LOCATION AS SEPARATE TIME SERIES:
+   Police district defines which specific time series is modeled; it is never injected as an
+   arbitrary numeric feature into a univariate ARIMA model. Spatial differences reflect disparate
+   reporting densities, population distributions, and enforcement priorities rather than intrinsic neighborhood risk.
+
+3. TEMPORAL DYNAMICS & STRUCTURAL BREAKS:
+   The weekly time series exhibits annual seasonality with summer peaks. Non-stationarity is handled
+   via differencing and autoregression. Exogenous structural disruptions (such as pandemic lockdowns)
+   can induce parameter drift, requiring rolling-origin recalibration rather than rigid static deployment.
+
+4. COUNT-DATA ASSUMPTIONS & LIMITATIONS:
+   ARIMA assumes Gaussian, continuous innovations. Because crime counts are strictly non-negative
+   integers, Gaussian forecasts can theoretically generate negative values in low-count regimes.
+   Such occurrences must be reported transparently as modeling limitations rather than silently clipped.
+
+5. ETHICAL DEPLOYMENT BOUNDARY:
+   These models are strictly designed for academic evaluation and macro-level decision support.
+   They must NEVER be utilized for individual risk scoring, predictive person-level profiling, or
+   autonomous dispatch and punitive policing decisions.
+================================================================================
