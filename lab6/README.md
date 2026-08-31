@@ -30,13 +30,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### 3. Generate Publication-Grade PDF & Word Reports
-```bash
-python generate_report.py
-python generate_word_doc.py
-```
-
-### 4. Launch Interactive Jupyter Notebooks
+### 3. Launch Interactive Jupyter Notebooks
 ```bash
 jupyter notebook 23MID0444_Lab06_Crime_AR_ARIMA.ipynb
 # or
@@ -49,42 +43,19 @@ jupyter notebook lab6da.ipynb
 
 ```
 lab6/
-├── main.py                                      # End-to-end reproducible time-series ML pipeline
-├── generate_report.py                           # ReportLab automated PDF report generator
-├── generate_word_doc.py                         # python-docx automated Word document generator
-├── build_notebook.py                            # Jupyter notebook generator script
-├── 23MID0444_Lab06_Crime_AR_ARIMA.ipynb         # Official assessed student notebook
-├── lab6da.ipynb                                 # Interactive Jupyter notebook
-├── requirements.txt                             # Python package dependencies
-├── README.md                                    # Project documentation
+├── 23MID0444_Lab06_Report.pdf                   # Master PDF Laboratory Technical Report
+├── 23MID0444_Lab06_Crime_AR_ARIMA.ipynb         # Official assessed student notebook (100% executed, 1.04 MB)
+├── lab6da.ipynb                                 # Standardized interactive Jupyter notebook
 ├── 23MID0444_Lab06_README.md                    # Standardized submission documentation
-├── Lab06_report.pdf                             # Master PDF Laboratory Technical Report
-├── 23MID0444_Lab06_Report.pdf                   # Student submission PDF report
-├── Lab06_report_up.pdf                          # Alternate publication build
-├── lab_6rep.pdf                                 # Standardized report copy
-├── Lab06_report.docx                            # Master Word Laboratory Technical Report
-├── 23MID0444_Lab06_Report.docx                  # Student submission Word report
-├── Lab06_report_up.docx                         # Alternate Word report build
-├── lab_6rep.docx                                # Standardized Word copy
-├── asi_6qn.pdf                                  # Faculty Laboratory Manual (Dr. Durgesh Kumar)
+├── README.md                                    # Project documentation
 ├── 23MID0444_Lab06_Model_Comparison.csv         # Locked test evaluation metrics
 ├── 23MID0444_Lab06_Test_Predictions.csv         # 12-week test actuals and all model forecasts + 95% CI
 ├── 23MID0444_Lab06_Location_Comparison.csv      # District 1 vs District 8 spatial comparison
 ├── 23MID0444_Lab06_Rolling_Origin.csv           # 22-fold walk-forward validation results
 ├── 23MID0444_Lab06_Manifest.json                # Complete experiment configuration & reproducibility manifest
-├── models/                                      # Serialized fitted pipelines (.joblib)
-│   ├── ar_model.joblib
-│   └── arima_model.joblib
-├── figures/                                     # Diagnostic and forecast visual artifacts (.png)
-│   ├── eda_series_overview.png
-│   ├── chronological_split.png
-│   ├── acf_pacf_diagnostics.png
-│   ├── forecast_comparison.png
-│   ├── residual_diagnostics.png
-│   ├── rolling_origin_errors.png
-│   ├── two_location_comparison.png
-│   ├── sarima_advanced.png
-│   └── model_comparison_bars.png
+├── main.py                                      # End-to-end reproducible time-series ML pipeline
+├── requirements.txt                             # Python package dependencies
+├── asi_6qn.pdf                                  # Faculty Laboratory Manual (Dr. Durgesh Kumar)
 └── lab06_outputs/                               # Structured output directory
     ├── manifest.json
     ├── artifacts/
@@ -94,6 +65,19 @@ lab6/
     │   ├── chicago_crimes_district001_extract.csv
     │   ├── chicago_crimes_district008_extract.csv
     │   └── responsible_analytics_statement.txt
+    ├── figures/
+    │   ├── eda_series_overview.png
+    │   ├── chronological_split.png
+    │   ├── acf_pacf_diagnostics.png
+    │   ├── forecast_comparison.png
+    │   ├── residual_diagnostics.png
+    │   ├── rolling_origin_errors.png
+    │   ├── two_location_comparison.png
+    │   ├── sarima_advanced.png
+    │   └── model_comparison_bars.png
+    ├── models/
+    │   ├── ar_model.joblib
+    │   └── arima_model.joblib
     └── results/
         ├── adf_stationarity_results.csv
         ├── arima_candidate_comparison.csv
